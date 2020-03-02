@@ -1,0 +1,36 @@
+a {
+			color: green;
+		}
+		
+		a:nth-last-of-type(1) {
+  			color: red;
+		}
+		
+		#second-div p:nth-last-of-type(5){
+  			color: red;
+		}
+		
+		#second-div p:nth-last-of-type(3){
+  			color: red;
+		}
+		
+		#second-div p:nth-last-of-type(1){
+  			color: red;
+		}
+		
+		#second-div p:nth-last-of-type(4){
+  			color: blue;
+		}
+		
+		#second-div p:nth-last-of-type(2){
+  			color: blue;
+		}
+
+#first-div > p:after {
+	color: yellow;
+	content: 'NEW';
+}
+
+p:nth-last-of-type(1):hover {
+	font-style: italic;
+}
