@@ -31,6 +31,6 @@ a {
 	content: 'NEW';
 }
 
-p:nth-last-of-type(1):hover {
+body > p:last-child:hover {
 	font-style: italic;
 }
